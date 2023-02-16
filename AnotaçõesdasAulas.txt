@@ -1,0 +1,26 @@
+CONVERSÕES STRING ==> NUMERO INT OU fLOAT
+NumberparseInt <= Converte de string para Inteiro
+Numberparsefloat <= Converte de string para Float
+Number <= O proprio javaScript decide o tipo de conversão mas adequado. 
+
+CONVERSÕES NUMERO ==> NUMERO STRING
+PODEMOS USAR: string (n) n representa a variavavel a ser convertida.
+n.tostring()
+s.length TAMANHO DA STRING 
+S.toUpperCase() TUDO PARA MAIÚSCULAS 
+s.toLowerCase() TUDO PARA  MINUSCULAS
+
+ 
+FORMATANDO STRING
+<strong> deixa em negrito
+ <br/> Quebra a linha de baixo
+
+FORMATANDO NUMEROS 
+n.toFixad(2) move o ponto entre as casas decimais dos NUMEROS
+n.toFixad(2).replace('.' , ',') troca ponto por virgula
+
+Mostra a moeda que você preferir no codigo.
+n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+
+
+
