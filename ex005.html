@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conhecendo o DOM</title>
+
+    <style>
+        body{
+            background:#8f5cd6 ;
+            color: white;
+            font: normal 18pt Arial;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong> DOM</strong> em javascript.</p>
+   <p id = "test">testando um p 3</p>
+    <div class="test2">Clique em mim</div>
+
+    <script>
+     // selecionando por tags ou seja plural!!! 
+   /*  var p1 = document.getElementsByTagName('p')[0]
+        document.write(p1.innerHTML)
+        //seleciona cada tag no individual por id
+        //para selecionar uma tag atribuindo um nome a ela, é so fazer da mesma foroma que id.
+        var d = document.getElementById('test')
+       // mudando o background da var d atribuida a tag p 2
+        d.style.background = 'pink'
+       // mudando o texto da tag var d  atribuida a tag p 2
+        d.innerText = 'testando pt 2'*/
+        // Aprendendo a usar seletor 
+        // indicado para fazer swlwções rapidas!!
+        // indicado para navegadores mais recentes e atualizados.
+        var c = document.querySelector('div.test2')
+        c.style.background = 'green'
+
+
+
+    </script>
+</body>
+</html>
